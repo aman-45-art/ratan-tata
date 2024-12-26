@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tribute to Dr. Ratan Tata, showcasing his achievements, career, and personal life.">
+    <title>Tribute to Dr. Ratan Tata</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #393315;
+        }
+
+        .container {
+            display: none;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .container.active {
+            display: block;
+        }
+
+        #home {
+            background: linear-gradient(to right, #d1b3f0, #9badcc);
+            color: #fff;
+            text-align: center;
+        }
+
+        #home img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 15px;
+            border-radius: 15px;
+        }
+
+        #about {
+            background: #20201d; /* Tomato */
+            color: white;
+            text-align: center;
+        }
+
+        #about img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 15px;
+            border-radius: 15px;
+        }
+
+        #career {
+            background: #cd324c; /* Lime Green */
+            color: white;
+            text-align: center;
+        }
+
+        #career img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 15px;
+            border-radius: 15px;
+        }
+
+        #personal-life {
+            background: #617ff4; /* Sandy Brown */
+            color: white;
+            text-align: center;
+        }
+
+        #personal-life img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 15px;
+            border-radius: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #333;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Removed the <h1> title here -->
+        <nav>
+            <a href="#" aria-label="Go to Home section" onclick="showSection('home')">Home</a>
+            <a href="#" aria-label="Go to About Us section" onclick="showSection('about')">About Us</a>
+            <a href="#" aria-label="Go to Career section" onclick="showSection('career')">Career</a>
+            <a href="#" aria-label="Go to Personal Life section" onclick="showSection('personal-life')">Personal Life</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <div class="container active" id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to the tribute page dedicated to Dr. Ratan Tata, an iconic leader and visionary who has left an indelible mark on India and the world through his extraordinary achievements and contributions.</p>
+        <img src="https://www.bizzbuzz.news/h-upload/2024/10/17/1939916-ratan-tata-1.webp" alt="Dr. Ratan Tata" title="Dr. Ratan Tata">
+    </div>
+
+    <!-- About Us Section -->
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Ratan Tata, born on December 28, 1937, in Mumbai, India, is a prominent Indian industrialist, philanthropist, and former chairman of the Tata Group, one of India’s largest conglomerates. He is known for his visionary leadership, which transformed the Tata Group into a global powerhouse with notable acquisitions like Jaguar Land Rover, Corus Steel, and Tetley Tea. Under his leadership, the group expanded into over 100 countries and achieved significant milestones, including the launch of the Tata Nano, the world's most affordable car. 
+
+            A graduate in architecture from Cornell University and an alumnus of Harvard Business School, Ratan Tata is admired for his focus on innovation, ethical business practices, and corporate social responsibility. Even after retiring as chairman in 2012, he remains active as Chairman Emeritus of Tata Sons and continues to mentor startups and invest in promising ventures through Ratan Tata Trust. Known for his humility and philanthropy, he has significantly contributed to healthcare, education, and rural development in India.</p>
+        <img src="https://i.ytimg.com/vi/13l89xnqEkQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBx5mEpsdGngOfTbr39PEM0DqOC7A" alt="About Us" title="About Us">
+    </div>
+
+    <!-- Career Section -->
+    <div class="container" id="career">
+        <h2>Career</h2>
+        <p>Ratan Tata, born on December 28, 1937, in Mumbai, India, is a renowned industrialist who began his career at Tata Steel in 1962 and later served as the chairman of Tata Sons from 1991 to 2012, transforming the Tata Group into a global conglomerate with landmark acquisitions like Jaguar Land Rover and Corus Steel, while emphasizing innovation, ethical business practices, and philanthropy.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6zVUchQQSI8xKygv6yY1pqA45_Y6yPT4T_YVteXkkcl7_7UawYvbCpdgkEJbRr7MP7k&usqp=CAU" alt="Career of Dr. Ratan Tata" title="Career of Dr. Ratan Tata">
+    </div>
+
+    <!-- Personal Life Section -->
+    <div class="container" id="personal-life">
+        <h2>Personal Life</h2>
+        <p>Despite his towering professional success, Dr. Ratan Tata is known for his simplicity and humility. A passionate lover of cars and architecture, he has always maintained a low profile in his personal life. His commitment to philanthropy and social causes reflects his belief in giving back to society.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTISWG0t6nH2Yr8bgazUJmGYX6-tS5TBxw6lA&s" alt="Personal Life" title="Personal Life">
+    </div>
+
+    <footer>
+        <p>Dedicated to Dr. Ratan Tata - An Icon of Inspiration</p>
+        <p>Created by Aman kumar</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.container');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
